@@ -5,6 +5,7 @@
     /* global variables */
 
     --green: #596D48;
+    --green-dark: #41582d;
     --secondary-text-color: #28313F;
     --internal-padding: 50px;
     --internal-spacing: 25px;
@@ -91,4 +92,23 @@ form#sign-up input:focus-visible {
     border-width: 1px;
     border-color: #305CDA;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 20%);
+}
+
+.formContainer button {
+    background-color: var(--green);
+    font-weight: bold;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 9px;
+    padding: 0.9em calc(var(--internal-padding)*1.2);
+    margin-left: var(--internal-padding);
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 20%);
+    transition: 0.2s;
+}
+
+.formContainer button:hover {
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 20%);
+    background-color: var(--green-dark);
 }
