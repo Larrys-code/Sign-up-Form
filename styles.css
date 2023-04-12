@@ -70,7 +70,11 @@ form#sign-up .form-section{
     margin-bottom: var(--internal-spacing);
 }
 
-form#sign-up :is(input[type="text"], input[type="tel"], input[type="email"]) {
+form#sign-up 
+:is(input[type="text"], 
+    input[type="tel"], 
+    input[type="email"], 
+    input[type="password"]) {
     appearance: none;
     border-style: solid;
     border-width: 1px;
