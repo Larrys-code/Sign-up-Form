@@ -17,14 +17,18 @@ body {
     margin: 0px;
 }
 
-.background {
+.background-container {
+    position: relative;
+    overflow: hidden;
     width: max(25%, 250px);
     background-color: var(--green);
+    background-image: url("./Images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
 }
 
 .formContainer {
-    width: max-content;
     background-color: #F9FAFB;
+    width: 75%;
 }
 
 form#sign-up {
