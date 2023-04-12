@@ -6,7 +6,7 @@
 
     --green: #596D48;
     --secondary-text-color: #28313F;
-    --internal-padding: 20px;
+    --internal-padding: 40px;
 
 }
 
@@ -34,8 +34,9 @@ body {
 }
 
 .formContainer h4 {
+    font-size: 18px;
     padding-left: var(--internal-padding);
-    width: 500px;
+    width: 550px;
 
 }
 form#sign-up {
