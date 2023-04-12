@@ -7,6 +7,7 @@
     --green: #596D48;
     --secondary-text-color: #28313F;
     --internal-padding: 40px;
+    --internal-spacing: 20px;
 
 }
 
@@ -37,9 +38,17 @@ body {
     font-size: 18px;
     padding-left: var(--internal-padding);
     width: 550px;
-
 }
+
 form#sign-up {
     background: #fff;
+    padding-top: var(--internal-spacing);
+    padding-left: var(--internal-padding);
     box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 30%);
+    color: #28313F;
+}
+
+form#sign-up h1 {
+    margin: 0px 0px var(--internal-spacing);
+    font-size: 18px;
 }
