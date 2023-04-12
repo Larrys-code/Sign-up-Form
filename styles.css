@@ -1,3 +1,27 @@
 :root {
     box-sizing: border-box;
+    font-family: sans-serif;
+    
+    /* global variables */
+
+    --green: #596D48;
+    --secondary-text-color: #28313F;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+    width: max(30%, 250px);
+    background-color: var(--green);
+}
+
+.formContainer {
+    width: max-content;
+    background-color: #F9FAFB;
 }
