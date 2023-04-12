@@ -6,8 +6,8 @@
 
     --green: #596D48;
     --secondary-text-color: #28313F;
-    --internal-padding: 40px;
-    --internal-spacing: 20px;
+    --internal-padding: 50px;
+    --internal-spacing: 25px;
 
 }
 
@@ -22,7 +22,7 @@ body {
 .background-container {
     position: relative;
     overflow: hidden;
-    width: max(25%, 250px);
+    width: max(40%, 250px);
     background-color: var(--green);
     background-image: url("./Images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
@@ -31,13 +31,15 @@ body {
 .formContainer {
     padding: 100px 0px;
     background-color: #F9FAFB;
-    width: 75%;
+    width: 60%;
+    /* width: 75%; */
 }
 
 .formContainer h4 {
-    font-size: 18px;
+    font-size: 23px;
     padding-left: var(--internal-padding);
-    width: 550px;
+    margin-right: var(--internal-padding);
+    width: min(700px, 90%);
 }
 
 form#sign-up {
@@ -50,5 +52,5 @@ form#sign-up {
 
 form#sign-up h1 {
     margin: 0px 0px var(--internal-spacing);
-    font-size: 18px;
+    font-size: 23px;
 }
