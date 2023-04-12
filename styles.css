@@ -54,3 +54,28 @@ form#sign-up h1 {
     margin: 0px 0px var(--internal-spacing);
     font-size: 23px;
 }
+
+form#sign-up label {
+    font-size: 12px;
+}
+
+form#sign-up :is(input[type="text"], input[type="tel"], input[type="email"]) {
+    appearance: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #E5E7EB;
+    font-size: 16px;
+    padding: 0.2em 0.4em;
+    overflow: hidden;
+    margin-bottom: var(--internal-spacing);
+
+}
+
+form#sign-up input:focus-visible {
+    appearance: none;
+    outline: none;
+    border-width: 1px;
+    border-color: #305CDA;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 20%);
+}
