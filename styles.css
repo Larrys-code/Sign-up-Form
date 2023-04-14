@@ -30,7 +30,10 @@ body {
 }
 
 .formContainer {
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #F9FAFB;
     width: 60%;
     /* width: 75%; */
@@ -40,7 +43,20 @@ body {
     font-size: 23px;
     padding-left: var(--internal-padding);
     margin-right: var(--internal-padding);
+    margin-top: 0px;
     width: min(700px, 90%);
+}
+
+.formContainer > p {
+    font-size: 16px;
+    margin: 0px;
+    padding-left: var(--internal-padding);
+}
+
+.formContainer > p a {
+    color: var(--green);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 form#sign-up {
@@ -109,6 +125,7 @@ form#sign-up input:focus-visible {
 }
 
 .formContainer button {
+    align-self: flex-start;
     background-color: var(--green);
     font-weight: bold;
     font-size: 18px;
@@ -116,6 +133,7 @@ form#sign-up input:focus-visible {
     border-radius: 9px;
     padding: 0.9em calc(var(--internal-padding)*1.2);
     margin-top: 2em;
+    margin-bottom: 2em;
     margin-left: var(--internal-padding);
     color: white;
     cursor: pointer;
